@@ -1,0 +1,475 @@
+/*=============================Global=======================================*/
+
+:root {
+  --primary-color: #fb8f1d;
+  --primary-color-dark: #cf6b00;
+  --p-color: #7d7987;
+  --link--color: #b8becd;
+  --main-font-color: #202336;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 80px;
+  color: var(--main-font-color);
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 50px;
+}
+
+h3,
+h4 {
+  font-family: 'Inter';
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+p {
+  font-family: 'Mulish';
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 30px;
+  color: var(--p-color);
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 44px;
+  text-decoration: none;
+  color: var(--link--color);
+}
+
+li {
+  list-style: none;
+}
+
+a:hover {
+  color: var(--main-font-color);
+  font-weight: 500;
+}
+
+button {
+  background: var(--primary-color);
+  border-radius: 8px;
+  width: 132px;
+  line-height: 60px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  line-height: 44px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+
+button:hover {
+  background-color: var(--primary-color-dark);
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.view-all {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #fb8f1d;
+}
+
+/*=============================Header=======================================*/
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+nav {
+  margin-top: 35px;
+  margin-bottom: 72px;
+}
+
+.nav-right a {
+  margin-right: 35px;
+}
+
+.login-btn {
+  margin-right: 18px;
+  color: var(--primary-color);
+  background-color: white;
+  border: 1px solid;
+}
+
+.showcase .left {
+  align-self: center;
+  width: 471px;
+}
+
+.showcase .left h3 {
+  color: var(--main-font-color);
+  padding-top: 74px;
+}
+
+.line {
+  background: var(--main-font-color);
+  border-radius: 4px;
+  width: 32px;
+  height: 2px;
+  margin-top: 21px;
+  margin-bottom: 48px;
+}
+
+.dd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropdown {
+  border: 0.8px solid #afb0b9;
+  color: #4a4c53;
+  border-radius: 6px;
+  width: 220px;
+  height: 52px;
+  margin-bottom: 35px;
+  margin-right: 30px;
+  padding: 0 20px;
+  line-height: 52px;
+  font-size: 15px;
+  line-height: 52px;
+  text-align: center;
+  font-family: 'Inter';
+}
+
+.showcase button {
+  width: 180px;
+  height: 52px;
+  font-size: 17px;
+}
+
+/*=============================S1=======================================*/
+
+.s1 {
+  margin-top: 270px;
+  margin-bottom: 290px;
+}
+
+.s1 .right {
+  align-self: center;
+  width: 481px;
+}
+
+.s1 p {
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.s1 button {
+  width: 164px;
+  height: 48px;
+
+  font-size: 16px;
+}
+
+/*=============================Featured destinations=======================================*/
+
+.featured-destinations {
+  max-width: 1120px;
+  margin: auto;
+  margin-bottom: 230px;
+}
+
+.featured-destinations .head {
+  margin-bottom: 55px;
+}
+
+.dest {
+  width: 261px;
+  height: 337px;
+  display: flex;
+}
+
+.dest_text {
+  width: 120px;
+  height: 50px;
+  align-self: flex-end;
+}
+
+.d1 {
+  background-image: url(../images/destraja.png);
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.d2 {
+  background-image: url(../images/destfanjing.png);
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.d3 {
+  background-image: url(../images/destvevey.png);
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.d4 {
+  background-image: url(../images/destskadar.png);
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.dest_h {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  color: #042521;
+  line-height: 25px;
+}
+
+.dest_c {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: var(--link--color);
+  line-height: 25px;
+}
+
+/*=============================Guides by Thousand Sunny=======================================*/
+
+.guides-by-thousand-sunny .left {
+  align-self: center;
+  width: 450px;
+}
+
+.guides-by-thousand-sunny p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.guides-by-thousand-sunny button {
+  width: 164px;
+  height: 48px;
+}
+
+/*=============================Testimonials=======================================*/
+
+.testimonials {
+  max-width: 1120px;
+  margin: auto;
+  margin-top: 250px;
+  margin-bottom: 270px;
+}
+
+.testimonials .right {
+  padding: 0px 150px;
+  align-self: center;
+}
+
+.testimonials .right .testimonials-img {
+  width: 417px;
+  height: 523px;
+  display: flex;
+  background-image: url(images/photo.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.box {
+  border-radius: 16px 0px 0px 0px;
+  width: 132px;
+  height: 60px;
+  display: flex;
+  background-color: white;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  right: 20px;
+  bottom: 30px;
+  position: absolute;
+}
+
+.buttonnext {
+  width: 40px;
+  height: 40px;
+  background-image: url(/images/next.png);
+}
+
+.buttonprev {
+  width: 40px;
+  height: 40px;
+  background-image: url(/images/previous.png);
+}
+
+.testimonials .left .stars {
+  margin-top: 145px;
+  margin-bottom: 30px;
+}
+
+.testimonials .left p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.testimonials .left h3 {
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.testimonials .left h4 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 200px;
+}
+
+/*=============================Trending stories=======================================*/
+
+.trending-stories {
+  margin-bottom: 270px;
+}
+
+.trending-stories .head {
+  margin-bottom: 45px;
+}
+
+.trending-stories .trending {
+  width: 266px;
+  height: 446px;
+}
+
+.trending-stories .trending .img {
+  border-radius: 6px 6px 0px 0px;
+  background-size: cover;
+  width: 261px;
+  height: 233px;
+}
+
+.t1 {
+  background-image: url(images/image\ 12.png);
+}
+
+.t2 {
+  background-image: url(images/image\ 13.png);
+}
+
+.t3 {
+  background-image: url(images/image\ 14.png);
+}
+
+.t4 {
+  background-image: url(images/image\ 15.png);
+}
+
+.trending-stories .trending h3 {
+  padding: 13px 10px 13px 0px;
+
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+.trending-stories .trending p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+
+.read-more {
+  font-family: 'Inter';
+
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: #fb8f1d;
+}
+
+/*=============================Footer=======================================*/
+
+footer {
+  background: #f9f9fb;
+  height: 482px;
+}
+
+.about {
+  padding-top: 70px;
+  padding-bottom: 77px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+
+.main-column {
+  flex: 2;
+}
+
+.main-column .book-trip {
+  margin-top: 40px;
+  margin-bottom: 55px;
+  margin-right: 170px;
+}
+
+.about-column {
+  flex: 1;
+}
+
+footer .about-column .about-h {
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 60px;
+  color: #000000;
+}
+footer .about-column .about-option {
+  font-family: 'Mulish';
+
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
+}
+
+.social {
+  padding: 35px;
+  margin: auto;
+}
+
+.social a {
+  margin-right: 30px;
+}
